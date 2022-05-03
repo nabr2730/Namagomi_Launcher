@@ -58,7 +58,7 @@ jobs:
       - name: Use Node.js 16.15.0
         uses: actions/setup-node@v1
         with:
-          node-version: '14.17.5'
+          node-version: '16.15.0'
 
       ##Tag Number input
       - name: Get latest release version tag number
